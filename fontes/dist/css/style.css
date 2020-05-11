@@ -1,0 +1,244 @@
+.desktop{display:inline;}
+.mobile{display:none;}
+.bg-black{
+    background-color: #000000;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.bg-grey{
+    background-color: #f4f4f4;
+}
+.bg-greydark{
+    background-color:#565655;
+}
+.distancia{
+    padding: 20px;
+}
+.distancia-footer{
+    padding:20px;
+}
+.distancia-center{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.img-right-seta{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    padding-left: 0px;
+    cursor:pointer;
+	bottom: 2px;
+}
+.img-right-sinal{
+    position: relative;
+    float: right;
+    padding-right: 20px;
+    padding-left: 0px;
+    cursor:pointer;
+	top: 6px;
+}
+.img-curtiu{
+    cursor:pointer;  
+}
+.img-ncurtiu{
+    cursor:pointer;  
+}
+.img-icon{
+    padding-right: 30px;
+}
+.text-white{
+    color:#ffffff;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #9fc54d;
+    border-radius: 13px;
+    cursor:pointer;
+}
+.text-footer-white{
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.text-footer-green{
+    color:#9fc54d;
+    font-weight: 600;
+    font-size: 18px;
+}
+.text-footer-green > a{
+    color:#9fc54d;
+}
+.text-copyright{
+    color:#ffffff;
+    font-size: 14px; 
+}
+.text-greendark{
+    color:#3b6969;
+    padding: 15px;
+    font-weight: 700;
+    cursor:pointer;
+    font-size: 15px;
+}
+.text-grey{
+    color:#5c5c65;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-grey > a{
+    color:#5c5c65;
+    text-decoration: underline;
+}
+.text-greydark{
+    color:#565655;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.text-curtiu{
+    color:#5c5c65;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.text-ncurtiu{
+    color:#5c5c65;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.linha{
+    border: 0;
+    height: 1px;
+    background: #9fc54d;
+}
+.btn-primary{
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.container-footer{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media(max-width:1024px) and (min-width:710px){
+    .img-right-seta{
+		position: relative;
+		float: right;
+		padding-right: 10px;
+		padding-left: 0px;
+		cursor:pointer;
+		bottom: 0px;
+	}
+	.img-right-sinal{
+		position: relative;
+		float: right;
+		padding-right: 20px;
+		padding-left: 0px;
+		cursor:pointer;
+		top: 0px;
+	}
+    .text-white{
+        color:#ffffff;
+        padding: 10px;
+        line-height: 20px;
+        font-weight: 500;
+        background-color: #9fc54d;
+        border-radius: 13px;
+        font-size: 15px;
+    }
+    .text-greendark{
+        color:#3b6969;
+        padding: 5px;
+        font-weight: 700;
+    }
+    .text-grey{
+        color:#5c5c65;
+        padding: 0px;
+    }
+    .text-curtiu{
+        color:#5c5c65;
+        padding: 5px;
+    }
+    .text-ncurtiu{
+        color:#5c5c65;
+        padding: 5px;
+    }
+    .distancia{
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    .img-icon{
+        padding-right: 15px;
+    }
+}
+
+@media(max-width:700px){
+    .mobile{display:inline;}
+    .desktop{display:none;}
+    .img-right-seta{
+		position: relative;
+		float: none;
+		padding-right: 10px;
+		padding-left: 0px;
+		cursor:pointer;
+		bottom: 0px;
+	}
+	.img-right-sinal{
+		position: relative;
+		float: none;
+		padding-right: 20px;
+		padding-left: 0px;
+		cursor:pointer;
+		top: 0px;
+	}
+    .text-white{
+        color:#ffffff;
+        padding: 10px;
+        line-height: 25px;
+        font-weight: 500;
+        background-color: #9fc54d;
+        border-radius: 13px;
+    }
+    .text-greendark{
+        color:#3b6969;
+        padding: 0px;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .text-grey{
+        color:#5c5c65;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .distancia{
+        padding: 5px;
+    }
+    .text-curtiu{
+        color:#5c5c65;
+        padding: 5px;
+    }
+    .text-ncurtiu{
+        color:#5c5c65;
+        padding: 5px;
+    }
+    .text-footer-white{
+        color:#ffffff;
+        font-weight: 600;
+        font-size: 12px;
+    }
+	.btn-primary{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+    
+}
